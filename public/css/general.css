@@ -1,0 +1,16 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-amarillo:#EAC926;
+    --color-azul : #03264C;
+    --color-celeste : #1259c3;
+    --color-grisoscuro : #666;
+    --color-grisclaro :  #ebebeb;
+    --color-verde : #39b54a;
+}
+
