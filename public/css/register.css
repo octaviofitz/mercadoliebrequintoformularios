@@ -1,0 +1,18 @@
+.register main{
+    background-color: #ececec;
+}
+
+.register .perfil{
+    margin-left: -22px;
+}
+
+.register .reset{
+    background-color: rgb(160, 160, 160);
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.register .error{
+    display: none;
+}

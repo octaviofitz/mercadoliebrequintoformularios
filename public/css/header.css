@@ -1,0 +1,172 @@
+/* header */
+
+ .header .logo{
+    width: 50%;
+    margin: 15px;
+}
+
+ .header{
+    background-color: #EAC926;
+    margin: 0;
+    padding: 0;
+    height: 180px;
+    width: 100%;
+}
+
+ .header .divmobile{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ .header .barrabusqueda{
+    width: 50%;
+    margin-top: 15px;
+}
+
+
+
+ .header .compracuotas{
+    margin-left: 40px;
+    font-size: 12px;
+    margin-bottom: 22px;
+}
+
+ .header .lista a{
+    color: black;
+    text-decoration: none;
+    font-size: 12px
+}
+
+ .header .lista{
+    list-style: none;
+    padding-left: 3px;
+    color: black;
+    margin-bottom: 30px;
+    font-size: 12px;
+    display: none;
+    
+}
+
+ .header .burgermenu{
+    display: inline;
+    margin: 15px 0 0 45%;
+    background-color: rgb(33, 89, 192);
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 10px 14px;
+}
+
+
+@media (min-width: 361px) {
+     .header
+    {
+        height: 30vh;
+    }
+
+     .header .logo{
+        width: 50%;
+        margin: 15px
+    }
+
+     .header .barrabusqueda{
+        width: 50%;
+        margin-left: 15px;
+    }
+
+
+
+     .header .compracuotas{
+    margin-left: 8px;
+    font-size: 18px;
+    margin-bottom: 22px;
+    text-align: center;
+}
+
+
+     .header .lista{
+        display: none;
+        line-height : 20px;
+    }
+
+     .header .lista a{
+        margin-left: 12px;
+        font-size: 21px;
+    }
+}
+
+    @media (min-width:769px) {
+         .header
+        {
+            height: 24vh;
+        }
+    
+         .header .divtabletdesktop{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+         }
+    
+    
+         .header .logo{
+            width: 27vw;
+        }
+    
+    
+     .header .barrabusqueda{
+        width: 24vw;
+        margin-top: 32px;
+    }
+    
+     .header .compracuotas{
+        font-size: 1.55vw;
+        margin-bottom: 22px;
+        margin-top: 32px;
+        margin-right: 2vw;
+    }
+    
+    
+    
+     .header .divlista{
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    
+     .header .listamenu li{
+        display: inline-block;
+        margin-left: -10px;
+        }
+    
+     .header .listausuario li{
+        display: inline-block;
+        /* margin-right: 2vw; */
+    }
+    
+     .header .lista{
+        display: inline-block;
+    }
+    
+     .header .lista a{
+        font-size: 14px;
+        padding: 1.2vw;
+    }
+    
+     .header .burgermenu{
+     display: none;
+    }
+
+}
+
+@media (min-width:1024px) {
+     .header{
+        height: 25vh;
+    }
+
+     .header .lista a{
+        font-size: 18px;
+        padding: 1.2vw;
+    }
+}

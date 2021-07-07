@@ -1,0 +1,136 @@
+.footer{
+    background-color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.footer h2{
+    color: #666;
+}
+
+.footer .fa-credit-card{
+    margin-top: 30px;
+    color: #1259c3;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer .fa-gift{
+    margin-top: 30px;
+    color: #1259c3;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer .fa-user-shield{
+    margin-top: 30px;
+    color: #1259c3;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer h4{
+    color: #444;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.footer p{
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer .copyright {
+    margin-top: 15px;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 9px;
+}
+
+@media (min-width: 361px) {
+    .footer .fa-credit-card{
+    margin-top: 30px;
+    font-size: 3.2em;
+    margin-bottom: 10px;
+}
+
+.footer .fa-gift{
+    margin-top: 30px;
+    font-size: 3.2em;
+    margin-bottom: 10px;
+}
+
+.footer .fa-user-shield{
+    margin-top: 30px;
+    font-size: 3.2em;
+    margin-bottom: 10px;
+}
+
+
+.footer p{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+
+
+.footer .copyright {
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+    .footer h4{
+    font-size: 22px;
+}
+}
+
+@media (min-width:769px) {
+    .footer .fa-credit-card{
+        font-size: 3.5em;
+    }
+    
+    .footer .fa-gift{
+        font-size: 3.5em;
+    }
+    
+    .footer .fa-user-shield{
+        font-size: 3.5em;
+    }
+    
+    
+    .footer p{
+        font-size: 24px;
+    }
+    
+    .footer .copyright {
+        font-size: 22px;
+    }
+    
+    .footer h4{
+        font-size: 26px;
+    }
+}
+
+@media (min-width:1024px) {
+    /* footer */
+
+.footer p{
+    font-size: 15px;
+}
+
+.footer .copyright {
+    font-size: 12px;
+}
+
+    .footer h4{
+    font-size: 17px;
+}
+}
