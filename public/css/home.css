@@ -110,15 +110,28 @@
  
 /* main */
 
+
+.home .contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .home .articulos{
     box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
 }
 
-.home .articulos .fa-truck{
-    font-size: 14px;
-    margin: -2vh 70vw;
-  }
 
+.home .articulos{
+    width: 49%;
+}
+
+
+.home .articulos .fa-truck{
+    font-size: 3vw;
+    margin: -2vh 30vw;
+  }
 
 
 .home .articulos .imagenproducto{
@@ -130,26 +143,25 @@
 }
 
 .home .articulos .precio{
-    font-size: 22px;
+    font-size: 3vw;
     width: 30%;
-    margin-top: 3.2vh;
+    margin-top: 3.8vh;
 }
 
 
 .home .articulos .descuento{
-    font-size: 22px;
+    font-size: 3vw;
     margin-left: 0vw;
-    margin-top: 3.2vh;
+    margin-top: 3.8vh;
 }
 
 .home .articulos .descripcion{
     display: inline-block;
-    font-size: 22px;
-    margin-bottom: 3vh;
+    font-size: 2.4vh;
+    margin-bottom: -4vh;
     margin-top: 2vh;
+    margin-left: 2.5vw;
 }
-
-
 }
 
 /* tablet */
@@ -157,14 +169,13 @@
 
 
     .home .main{
-        margin-left: 10vw;
+        margin-left: 3vw;
     }
 
 /* BANNER */
 
 .home .banner{
-    margin-left: -10vw;
-}
+width: 114%;}
 
 
 /* MAIN */    
@@ -180,24 +191,23 @@
 .home .basado{
     text-align: left;
     font-size: 40px;
-    margin-left: -15px;
 }
 
 .home .oferta{
     text-align: left;
     font-size: 40px;
-    margin-left: -15px;
 }
 
 .home .articulos{
-    margin-left: -4.2vw;
-    margin-right: 8vw;
-    width: 44vh;
+    width: 23.5%;
+    margin-right: 10px;
+    margin-left: 1px;
+    margin-right: -4vw;
 }
 
 .home .articulos .fa-truck{
-    font-size: 20px;
-    margin: -3vh 250px;
+    font-size: 1.6vw;
+    margin: -3vh 16vw;
   }
 
 
@@ -206,66 +216,16 @@
     }
     
     .home .articulos .precio{
-        font-size: 20px;
-        margin-top: 3vh;
+        font-size: 1.8vw
     }
     
     .home .articulos .descuento{
-        font-size: 20px;
-        margin-top: 3vh;
+        font-size: 1.8vw;
     }
 
     .home .articulos .descripcion{
-        font-size: 20px;
-        text-align: left;
+        font-size: 1.8vw;
+        margin-left: 1.5vw;
     }
     
-        
 }
-
-
-@media (min-width:1024px) {
-
-
-    /* artículos */
-    
-    .home .basado{
-        font-size: 48px;
-        margin-left: -8vw;
-    }
-    
-    .home .oferta{
-        font-size: 43px;
-        margin-left:-8vw;
-    }
-
-    .home .articulos{
-        margin-left: -8vw;
-        margin-right: 2vw;
-        width: 33vh;
-    }
-
-    .home .articulos .fa-truck{
-        font-size: 15px;
-        margin: -3vh 178px;
-      }
-
-
-      .home .articulos .precio{
-        font-size: 18px;
-        margin-top: 2.6vh;
-    }
-    
-    .home .articulos .descuento{
-        font-size: 18px;
-        margin-top: 2.6vh;
-    }
-
-    .home .articulos .descripcion{
-        font-size: 20px;
-        text-align: left;
-        margin-left: 17px;
-    }
-
-}
-

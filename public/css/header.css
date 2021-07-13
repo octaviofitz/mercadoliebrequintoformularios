@@ -1,11 +1,11 @@
 /* header */
 
- .header .logo{
+.header .logo{
     width: 50%;
     margin: 15px;
 }
 
- .header{
+.header .header{
     background-color: #EAC926;
     margin: 0;
     padding: 0;
@@ -13,33 +13,33 @@
     width: 100%;
 }
 
- .header .divmobile{
+.header .divmobile{
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
 }
 
- .header .barrabusqueda{
+.header .barrabusqueda{
     width: 50%;
     margin-top: 15px;
 }
 
 
 
- .header .compracuotas{
+.header .compracuotas{
     margin-left: 40px;
     font-size: 12px;
     margin-bottom: 22px;
 }
 
- .header .lista a{
+.header .lista a{
     color: black;
     text-decoration: none;
     font-size: 12px
 }
 
- .header .lista{
+.header .lista{
     list-style: none;
     padding-left: 3px;
     color: black;
@@ -49,7 +49,7 @@
     
 }
 
- .header .burgermenu{
+.header .burgermenu{
     display: inline;
     margin: 15px 0 0 45%;
     background-color: rgb(33, 89, 192);
@@ -61,66 +61,87 @@
 
 
 @media (min-width: 361px) {
-     .header
-    {
-        height: 30vh;
-    }
+    
+    .header .divtabletdesktop{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 3vh;
+     }
 
-     .header .logo{
-        width: 50%;
-        margin: 15px
-    }
-
-     .header .barrabusqueda{
-        width: 50%;
-        margin-left: 15px;
+    .header .logo{
+        width: 27vw;
     }
 
 
+.header .barrabusqueda{
+    width: 27vw;
+    margin-top: 32px;
+    margin-left: 0px;
+    }
 
-     .header .compracuotas{
-    margin-left: 8px;
-    font-size: 18px;
+.header .compracuotas{
+    width: 32%;
+    font-size: 1.5vw;
     margin-bottom: 22px;
-    text-align: center;
+    margin-top: 32px;
+    margin-right: 2vw;
+    margin-left: 2vw;
 }
 
 
-     .header .lista{
-        display: none;
-        line-height : 20px;
+
+.header .divlista{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .listamenu li{
+    display: inline-block;
     }
 
-     .header .lista a{
-        margin-left: 12px;
-        font-size: 21px;
-    }
+.header .listausuario li{
+    display: inline-block;
+}
+
+.header .lista{
+    display: inline-block;
+}
+
+.header .lista a{
+    font-size: 1.9vw;
+    padding: 1.2vw;
+}
+
+.header .burgermenu{
+ display: none;
 }
 
     @media (min-width:769px) {
-         .header
+ 
+        .header
         {
             height: 24vh;
         }
     
-         .header .divtabletdesktop{
+        .header .divtabletdesktop{
             display: flex;
             flex-direction: row;
             justify-content: space-between;
          }
     
     
-         .header .logo{
+        .header .logo{
             width: 27vw;
         }
     
     
-     .header .barrabusqueda{
+    .header .barrabusqueda{
         width: 24vw;
         margin-top: 32px;
     }
     
-     .header .compracuotas{
+    .header .header .compracuotas{
         font-size: 1.55vw;
         margin-bottom: 22px;
         margin-top: 32px;
@@ -128,45 +149,33 @@
     }
     
     
-    
-     .header .divlista{
+    .header .divlista{
         display: flex;
         justify-content: space-between;
     
     }
     
-     .header .listamenu li{
+    .header .listamenu li{
         display: inline-block;
         margin-left: -10px;
         }
     
-     .header .listausuario li{
+    .header .listausuario li{
         display: inline-block;
         /* margin-right: 2vw; */
     }
     
-     .header .lista{
+    .header .lista{
         display: inline-block;
     }
     
-     .header .lista a{
+    .header .lista a{
         font-size: 14px;
         padding: 1.2vw;
     }
     
-     .header .burgermenu{
+    .header .burgermenu{
      display: none;
     }
-
 }
-
-@media (min-width:1024px) {
-     .header{
-        height: 25vh;
-    }
-
-     .header .lista a{
-        font-size: 18px;
-        padding: 1.2vw;
-    }
 }
